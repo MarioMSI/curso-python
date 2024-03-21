@@ -3,13 +3,6 @@
   {
    "cell_type": "markdown",
    "metadata": {},
-   "source": [
-    "# 7. Condicionales"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
    "source": []
   }
  ],
