@@ -3,6 +3,7 @@
 Git es un sistema distribuido de control de versiones. 
 
 Github es un repositorio de código cloud. 
+Además de Github existe: bitbucket o gitlab. 
 
 ## The problem 
 
@@ -37,3 +38,24 @@ Git nos permite:
 | `git log`            | Muestra el historial de commits                                     | `git log`                                    |
 | `git fetch`          | Obtiene las últimas actualizaciones del repositorio remoto pero no las fusiona | `git fetch`                             |
 | `git diff [archivo]` | Muestra las diferencias en un archivo antes de hacer commit        | `git diff ejemplo.txt`                       |
+
+## Primera configuración
+`$ git config --global user.name "Nombre-usuario"`
+`$ git config --global user.email nombre@example.com`
+
+## Principales procesos 
+#### Empezar un repo de cero 
+1. Voy a github y creo un nuevo repositorio. 
+2. Creamos una carpeta en local, el nombre de la carpeta y el repo no tiene que coincidir. 
+3. Hacemos los pasos que dice github cuando hemos creado el repo: 
+![alt text](image-4.png)
+Ya está nuestro repo creado! 
+
+#### Conectarnos a un proyecto de github
+1. Creamos carpeta en nuestro ordenador 
+2. hacemos: `git clone [ruta del proyecto]`
+3. Si queremos cargar las actualizaciones de este proyecto lo haremos con `git pull`
+
+
+#### Enlace de interés 
+https://antonz.org/git-by-example/
