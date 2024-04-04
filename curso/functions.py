@@ -1,4 +1,4 @@
-def calcular_renta(renta): 
+def calcular_renta_4(renta): 
     if renta > 0:
         if ( renta <= 10000 ):
             print('5%')
