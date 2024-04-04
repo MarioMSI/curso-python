@@ -56,6 +56,5 @@ Ya está nuestro repo creado!
 2. hacemos: `git clone [ruta del proyecto]`
 3. Si queremos cargar las actualizaciones de este proyecto lo haremos con `git pull`
 
-
 #### Enlace de interés 
 https://antonz.org/git-by-example/
